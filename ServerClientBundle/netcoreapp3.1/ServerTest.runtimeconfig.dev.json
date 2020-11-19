@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\djque\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\djque\\.nuget\\packages"
+    ]
+  }
+}

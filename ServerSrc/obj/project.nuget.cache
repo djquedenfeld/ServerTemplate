@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "d3qWjbQbNupTsvv1Ae6gAvCw3wXTtfoBGRM9Qsmb0WcAYcqwjWgr8tGabsGowYytThZE8BcRxmYdo2I+I7aphw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\djque\\Desktop\\Visual Studio Projects\\C#\\ServerTest\\ServerTest\\ServerTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\djque\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\djque\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\djque\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
