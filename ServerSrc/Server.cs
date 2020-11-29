@@ -228,7 +228,10 @@ namespace ServerTest
 
             Console.WriteLine("No existing map found, beginning new map render...");
             Console.WriteLine("//NOTE: currently map overwrites on start each time!");
-            WorldGenerator.RenderBitmap(4, 10);
+            WorldGenerator.Generate2DMap(1360, 768, WorldGenerator.ocean);
+            //NumGen should always be at least 2, otherwise it will throw an exception!
+            WorldGenerator.SeedLandmass(new Vector2(400, 320), 300, 7, 10, 3);
+            //WorldGenerator.RenderBitmap(5, 10);
 
             DateTime mapStopTime = DateTime.Now;
             int MET = (int)mapStopTime.Subtract(mapStartTime).TotalSeconds;
