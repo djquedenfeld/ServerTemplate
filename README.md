@@ -1,6 +1,8 @@
 # ServerTemplate
 Template server for versatile use in gaming applications
 
+Based off tutorial series by Tom Weiland (https://www.youtube.com/watch?v=uh8XaC0Y5MA&ab_channel=TomWeiland)
+
 NOTE FOR SERVER:
 The server currently has an experimental world generator on it. The default settings I left it on to build with took about 23 minutes to render a (high detail, imo) bitmap. If you don't want to wait, download the source instead of the bundled server, and either comment out/remove the world gen portion (in Server.InitializeServerData) or reduce the number of generations it processes (Also in Server.InitializeServerData, where the WorldGenerator.SeedLandmass is called)
 
